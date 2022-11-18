@@ -1,0 +1,24 @@
+.worms {
+    background-color: antiquewhite;
+    font-family: Verdana;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+.date {
+    font-size: large;
+    text-align: center;
+    
+}
+
+body {
+    background-color: pink;
+    font-family: Verdana;
+    background-image: url('https://static.tumblr.com/6e62262656d06e74c0b20312b72d5922/fpf8ulj/955okd9in/tumblr_static_c50c00tbc94408oo80wo4woc8.png');
+}
+main {
+    background-image: url("./assets/sparkles.gif");
+    border-color: palevioletred;
+    border-width: 3px;
+    border-style: solid;
+}
