@@ -14,7 +14,8 @@
 body {
     background-color: pink;
     font-family: Verdana;
-    background-image: url('https://static.tumblr.com/6e62262656d06e74c0b20312b72d5922/fpf8ulj/955okd9in/tumblr_static_c50c00tbc94408oo80wo4woc8.png');
+    background-image: url("/assets/lsben.png");
+
 }
 main {
     background-image: url("./assets/sparkles.gif");
