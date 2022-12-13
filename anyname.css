@@ -1,20 +1,25 @@
 .worms {
-    background-color: antiquewhite;
+    background-color: #fea6ff;
     font-family: Verdana;
+    font-size: large;
     text-align: center;
     margin-left: 40%;
     margin-right: 40%;
 }
 .date {
     font-size: large;
+    font-style: oblique;
     text-align: center;
+    background-color: aliceblue;
+    margin-left: 40%;
+    margin-right: 40%;
     
 }
 
 body {
     background-color: pink;
     font-family: Verdana;
-    background-image: url("/assets/lsben.png");
+    background-image: url("/assets/lesbn.png");
 
 }
 main {
