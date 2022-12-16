@@ -17,11 +17,9 @@
 }
 
 body {
-    background-color: pink;
-    font-family: Verdana;
     background-image: url("/assets/lesbn.png");
-
 }
+
 main {
     background-image: url("./assets/sparkles.gif");
     border-color: palevioletred;
