@@ -18,6 +18,8 @@
 
 body {
     background-image: url("/assets/lesbn.png");
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 main {
@@ -36,11 +38,12 @@ h1 {
 .flex-container {
     display: flex;
     flex-flow: wrap;
+    column-gap: 10px;
 
 }
 
 .flex-item:nth-child(odd) {
-    flex: 25%;
+    flex: 20%;
 }
 
 .flex-item:nth-child(even) {
@@ -55,4 +58,9 @@ h1 {
 
 iframe {
     width:100%;
+}
+
+#navBar {
+    border: #fea6ff;
+    border-style: solid;
 }
