@@ -25,13 +25,30 @@ main {
     border-color: palevioletred;
     border-width: 3px;
     border-style: solid;
+    background-color: purple
 }
 
 h1 {
     text-align: center;
     font-size: 75px;
-    border-color: blue;
-    border-style: dotted;
-    margin-left: 10%;
-    margin-right: 10%;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+.flex-item:nth-child(odd) {
+    flex: 25%;
+}
+
+.flex-item:nth-child(even) {
+    flex: 75%;
+}
+
+#wormOTD {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
