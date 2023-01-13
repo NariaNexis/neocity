@@ -43,9 +43,11 @@ h1 {
 
 iframe {
     width:100%;
+    border: #fea6ff;
+    border-style: solid;
 }
 
 #navBar {
     border: #fea6ff;
-    border-style: solid;
+    border-style: double;
 }
