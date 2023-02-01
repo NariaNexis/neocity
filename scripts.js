@@ -8,4 +8,4 @@ window.onload = function() {
     document.getElementById("babyWorm").style.left = e.pageX
     document.getElementById("babyWorm").style.top = e.pageY
    }
-  };
+};
