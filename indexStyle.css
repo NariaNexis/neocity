@@ -1,17 +1,6 @@
 body {
     background-color: pink;
-}
-
-.intro {
-    background-image: url("./assets/sparkles.gif");
-    border-color: palevioletred;
-    border-width: 3px;
-    border-style: solid;
-    background-color: purple;
-    color: wheat;
-    text-align: center;
-    font-size: large;
-    
+    background-image: url("/assets/lesbn.png");
 }
 
 h1 {
