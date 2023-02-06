@@ -3,9 +3,4 @@ window.onload = function() {
     const random = Math.floor(Math.random() * title.length);
     console.log (random)
    document.querySelector("h1").innerHTML = title[random]
-
-   document.onmousemove = function(e){
-    document.getElementById("babyWorm").style.left = e.pageX
-    document.getElementById("babyWorm").style.top = e.pageY
-   }
 };

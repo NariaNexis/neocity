@@ -1,14 +1,7 @@
 body {
     font-family: Verdana;
     background-color: pink;
-    background-image: url("/assets/lesbn.png");
     margin-left: 30px;
     margin-right: 30px;
-}
-
-#babyWorm {
-    position: absolute;
-    text-align: center;
-    margin: 15;
-    width: 50px;
+    cursor: url("./assets/Untitled.png"), default;
 }
