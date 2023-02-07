@@ -5,6 +5,7 @@ body {
     margin-right: 30px;
     cursor: url("./assets/Untitled.png"), default;
 }
+
 .intro {
     background-image: url("./assets/sparkles.gif");
     border-color: palevioletred;
@@ -14,5 +15,9 @@ body {
     color: wheat;
     text-align: center;
     font-size: large;
-    
+
+}
+
+#track {
+    list-style-image: url("./assets/bulletWorm.png");
 }
