@@ -1,0 +1,9 @@
+{
+    "person" : {
+        "Name": "Charles",
+        "Age": 45
+    },
+    "tracking_list" : {
+        "spotify": "https://open.spotify.com/user/naria_nexis"
+    }
+}
