@@ -1,9 +1,11 @@
 {
-    "person" : {
+    "person": {
         "Name": "Charles",
         "Age": 45
     },
-    "tracking_list" : {
-        "spotify": "https://open.spotify.com/user/naria_nexis"
+    "tracking_list": {
+        "spotify": "https://open.spotify.com/user/naria_nexis",
+        "storygraph": "https://app.thestorygraph.com/profile/narianexis",
+        "mal": "https://myanimelist.net/animelist/Naria_Nexis"
     }
 }
