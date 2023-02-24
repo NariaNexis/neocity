@@ -4,14 +4,22 @@ window.onload = function () {
         .then((reponse) => reponse.json())
         .then((json) => {
             
-            //   document.querySelector("#spotify").setAttribute("href", json.tracking_list.spotify)
             let gallery = json.gallery
 
+            //looping gallery images
             let i = 1
             gallery.forEach(displayImages)
-            function displayImages() {
+            function displayImages(image) {
          
-                console.log(i)
+                let picture = 
+                `<img
+                    src="${image.path}"
+                    style="width: 100%"
+                    title="${image.title}"
+                />`
+                
+                let column = document.getElementById("column" + i)
+                column.innerHTML += picture
         
                 if (i === 4) {
                     i = 1
