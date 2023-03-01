@@ -1,6 +1,6 @@
 window.onload = function () {
 
-   fetch('./test.json')
+   fetch('./../test.json')
       .then((reponse) => reponse.json())
       .then((json) =>
 
